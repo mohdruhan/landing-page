@@ -1,0 +1,190 @@
+body {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+h2 {
+  font-weight: 700;
+  padding: 5% 0;
+}
+hr{
+  border: 1px solid white ;
+  width: 100%;
+}
+.container-fluid {
+  padding: 5% 10%;
+}
+
+/*navigation*/
+.navbar {
+  text-align: left;
+  padding: 0 0 2rem;
+}
+
+.brand {
+  width: 12%;
+  border-radius: 100%;
+}
+
+.navbar-brand {
+  padding-left: 0;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+}
+
+#title .container-fluid {
+  padding: 3% 3% 20%;
+  margin-bottom: 5%;
+}
+
+#title {
+  background: linear-gradient(90deg, #29346F 0.54%, #11184F 100.34%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #F1EFF7;
+  text-align: left;
+}
+
+.heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 800;
+  margin-top: 10%;
+}
+
+.image {
+  width: 95%;
+  position: absolute;
+}
+
+.btn-title {
+  background-color: #59BB9F;
+  border-radius: 25px;
+  padding: 5px 15px;
+}
+
+#features {
+  padding: 0 10%;
+}
+
+.feature {
+  width: 100%;
+}
+
+.ftext {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.block {
+  margin-bottom: 5%;
+}
+
+#testimonials .container-fluid {
+  background: linear-gradient(90deg, #29346F -2.59%, #11184F 96.87%);
+padding: 2% 5%;
+  text-align: center;
+  color: #F1EFF7;
+
+}
+#testimonials h5,h6{
+  font-weight: bolder;
+}
+#testimonials h2{
+  font-size: 5rem;
+  padding: 0 0 2%
+}
+.card-deck .card{
+  margin: 0 2%;
+}
+
+.carousel-control-next-icon , .carousel-control-prev-icon{
+  background-image: none;
+}
+.card {
+
+  background-color: #7EC8E3;
+  opacity: 0.2;
+  margin: 0 5%;
+  padding: 5% 0;
+  background-blend-mode: lighten;
+  border-radius: 2.5rem;
+}
+.card-text{
+  font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+color: grey;
+z-index: 1;
+
+
+}
+
+#question {
+  padding: 0 12%;
+  width: 50%;
+  margin: auto;
+}
+.icon{
+  color: #3082B5;
+  font-size: 2rem;
+  padding: 5px 25px;
+}
+#footer .container-fluid{
+  background-color: #323751;
+text-align: center;
+color: white;
+}
+.space{
+  padding: 0 30px;
+}
+.links {
+  padding: 2%;
+}
+.logo{
+  border-radius: 100%;
+
+}
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .image {
+    position: static;
+    padding-top: 5%;
+  }
+
+  #features {
+    text-align: center;
+  }
+
+  .feature {
+    position: static;
+    padding-top: 5%;
+  }
+  
+  .card{
+    align-content: center;
+  }
+.card2{
+  display: none;
+}
+.card3{
+  display: none;
+}
+.card1{
+  margin: auto;
+
+}
+.card-deck .card{
+  display:flow-root  ;
+  flex: none;
+}
+  }
